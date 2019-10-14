@@ -5,32 +5,60 @@
     <link rel="stylesheet" href="style.css" />
     <title>Herramienta de cifrado</title>
   </head>
-  <body>
-    <header id="headerUnique">
-            <h1 id="stonePrint">STONE PRINT</h1>
-            <h1 id="cipherTool">HERRAMIENTA DE CIFRADO</h1>
-            <h1 id="nameArea">Área de
+  <body id="bodyTotal">
+    <div id="logIn">
+    <form id="formInicio">
+        <div id="headerLogIn"> 
+            <h1 class="cabecera" id="empresa">STONE PRINT</h1>
+            <h1 class="cabecera" id="intranet">INTRANET</h1> 
+            <img src="logogristransparente.png" >       
+            <h1 class="cabecera" id="nameArea">Área de
                 Investigación
             </h1>
-    </header>
-
-    <section> 
+        </div>
+        <div id="logearte">
+            <div id="logear">
+        <h3 id="iniciarSesion"> Iniciar sesión  </h3>
+        <h4 id="usuario" >Usuario</h4>
+        <input name="username" type="text" id="usernameExample" placeholder="Username"
+         required/>
+        <h4 id="contraseña" >Contraseña</h4>
+        <input name="password" maxlength = 6 type="password" id="passwordExample" placeholder="Password"
+        required />
+        <button id="logInButton" type="button">Iniciar sesión</button>
+    </div>    
+    </div>
+        <div>
+            <h2 id="footerLogIn">Stone Print ® 2019</h2> 
+        </div>
+    </form>
+    </div>
+     <!-- Inicio del formulario -->
+     <form id="toolForIntranet">
+    <div>
+        <header id="headerUnique">
+        <img src="logogristransparente.png" > 
+            <h1 class="formHeader" id="stonePrint">STONE PRINT</h1>
+            <h1 class="formHeader" id="cipherTool">HERRAMIENTA DE CIFRADO</h1>
+            <img id="icono" src="logOutIcono.png">
+            <button class="formHeader" id="logOutButton">Cerrar sesión</button>        
+     </header>
+    <section > 
         <!-- es la parte central del documento-->
         <!-- es la parte superior antes de las 2 cajas -->
         <div id="neverChange">
             <h1 id="explanation">Esta herramienta es con fines de confidencialidad y protección de datos.</h1>
-            <h2 id="enterTheData">Ingresa los datos</h2>
         </div>
        
-        <!-- Inicio del formulario -->
-        <form>
+       
          <!-- son las dos cajas -->
               <div class="boxes">
                   <textarea id="firstBox"  placeholder="Ingresa el texto aquí" cols="60" rows="10" required></textarea> 
                   <textarea id="secondBox" cols="60" rows="10" readonly ></textarea> 
               </div>
         <!-- caja para ingresar el # de desplazamientos -->
-              <div><h1>Número de desplazamientos para el cifrado o descifrado</h1>
+              <div>
+                  <h1 id="textNumber">N° de desplazamientos:</h1>
                    <input id = "numberOfTrips" type="number" value=""
                     placeholder="Ingresa el número aquí" required>
               </div>
@@ -38,14 +66,12 @@
                    <button id="cipher" type="button">Cifrar</button>
                    <button id="descipher" type="button">Descifrar</button>
                    <button id="eraseEverything" type="reset">Borrar Todo</button>
-              </div>
         
         </form> 
-    </section>
-
     <footer id="footerFinal">
-         <h1>Stone Print® 2019</h1>
+            <h2>Stone Print ® 2019</h2>
     </footer>
+    </section>
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>

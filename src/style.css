@@ -1,0 +1,264 @@
+/* body {
+    background-image: url(telas.png);
+    background-size: 110% 110%;
+    background-position: 0px 0px ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+#headerLogIn, #headerUnique{
+position: absolute;
+width: 1350px;
+height: 50px;
+margin: auto;
+padding: 5px;
+top: -3px;
+left: 0px;
+
+background: #0A305C;
+}
+#logear{
+    width: 350px;
+    height: 350px;
+    margin: auto;  
+    margin-top: 42px;
+    background:#033C4F;
+    opacity: 0.90;
+    padding:30px;
+    border: white inset 5px;
+    display: block;
+}
+#logearte {
+position: absolute;
+width: 1300px;
+height: 513px;
+left: 0px;
+margin: auto;
+margin-top: 49px;
+margin-left:0px;
+background-image: url(telas1.png);
+background-size: 110% 110%;
+background-position: 0px 0px ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding: 30px;
+}
+
+h2{
+position: absolute;
+width: 1350px;
+margin-bottom: 0px;
+padding-top: 10px;
+padding-left: 10px;
+height: 30px;
+right: 0px;
+background: #0A305C;
+bottom: 0px;
+font: 15px arial;
+color: white
+}
+h1{
+    width: 1350px;
+    height: 30px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: white;
+    /* position: fixed; */
+}
+.cabecera{
+ position: fixed;
+ display: block;
+}
+#empresa{
+    position: absolute;
+    top: 14px;
+    left:65px;
+    font-size: 30px;
+    font-family: monospace;
+    width: 200px;
+}
+#intranet{
+    position: absolute;
+    top: 14px;
+    left: 585px;
+    font-family: Arial;
+    font-size: 34px;
+    width: 200px;
+}
+#nameArea{
+    position: absolute; 
+    top: 18px;
+    left: 1100px;
+    font-family: Arial;
+    font-size: 22px;
+    width: 230px;
+}
+ img{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-block-start: 3px;
+    left: 15px;
+}
+#usernameExample, #passwordExample{
+    width: 173px;
+    height: 21px;
+    font-size: 17px;
+}
+#logInButton{
+    position:absolute;
+    left: 490px;
+    top: 354px;
+    font-size: 18px;
+    width: 130px;
+    color: white;
+    border: 2px solid #0A3554;
+    background: #0B7C95;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+textarea{
+    size: block;
+}
+#iniciarSesion{
+    color: white;
+    font-size: 25px;
+    text-align: center  ;
+    font-family: Arial;
+}
+#usuario, #contraseña{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+input{
+    margin-left: 90px;
+}
+#logInButton{
+       margin-top: 50px;
+       margin-left: 129px;
+}
+body{
+    /* background: #DBF2EE; */
+    background-image: url(quimica1.png);
+    background-size: 100% 100%;
+    background-position: 0px 0px ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.formHeader{
+    position: fixed;
+    display: block;
+   }
+ #stonePrint{
+    position: absolute;
+    top: 14px;
+    left:65px;
+    font-size: 30px;
+    font-family: monospace; 
+    width: 300px;
+ }  
+ #cipherTool{
+    position: absolute;
+    top: 14px;
+    left: 440px;
+    font-family: Arial;
+    font-size: 34px;
+    width: 800px;
+ }
+
+#logOutButton{
+    position: absolute;
+    top: 15px;
+    left: 1140px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid #0A3554;
+    background: #0B7C95;
+    border-radius: 8px;
+    padding: 3px;
+    }
+#icono{
+    position: absolute;
+    left: 1280px;
+}     
+#explanation{
+    position: absolute;
+    color: black;
+    font: 22px Arial;
+    top: 120px;
+    text-align: center;
+}
+
+#firstBox{
+    position: absolute;
+    left: 190px;
+    top: 200px;
+    font-size: 18px;
+    width: 443px;
+    height: 156px;
+    resize: none;
+}
+#secondBox{
+    position:absolute ;
+    font-size: 18px;
+    left: 720px;
+    top: 200px;
+    width: 443px;
+    height: 156px;
+    resize: none;
+}   
+#cipher{
+    position: absolute;
+    top: 510px;
+    color: white;
+    border: 2px solid #0A3554;
+    background: #0B7C95;
+    border-radius: 8px;
+    padding: 3px;
+    left: 367px;
+    width: 120px;
+    height: 45px;
+    font-size: 20px;
+}
+#descipher{
+    position: absolute;
+    top: 510px;
+    color: white;
+    border: 2px solid #0A3554;
+    background: #0B7C95;
+    border-radius: 8px;
+    padding: 3px;
+    left: 620px;
+    width: 120px;
+    height: 45px;
+    font-size: 20px;
+}
+#eraseEverything{
+    position: absolute;
+    top: 510px;
+    color: white;
+    border: 2px solid #0A3554;
+    background: #0B7C95;
+    border-radius: 8px;
+    padding: 3px;
+    left: 873.26px;
+    width: 120px;
+    height: 45px;
+    font-size: 20px;
+}
+#numberOfTrips{
+    position: absolute;
+    top: 410px;
+    left: 330px ;
+    font-size: 16px;
+}
+#textNumber{
+    position: absolute;
+    color: black;
+    font: 20px Arial;
+    width: 300px;
+    top: 410px;
+    left: 190px ;
+}

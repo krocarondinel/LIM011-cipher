@@ -7,7 +7,6 @@ logoutUnique.addEventListener('click', () => {
   document.getElementById('logIn').style.display = 'block'
   document.getElementById('formInicio').reset()
 })
-
 const loginUnique = document.getElementById('logInButton')
 loginUnique.addEventListener('click', () => {
   // username= kelly.roca password=123456

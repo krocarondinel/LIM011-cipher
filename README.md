@@ -5,8 +5,8 @@
   Esta es una herramienta diseñada para ser parte de la Intranet de la empresa, su uso esta relacionado con la encriptación y desencriptación de formulaciones químicas de Stone Print.
 
 ## 2. Imagen final:
-![](pagina1.png)
-![](pagina2.png)
+![](LIM011-cipher/pagina1.png)
+![](LIM011-cipher/pagina2.png)
 
 ## 3. Investigación UX:
   * ### *Usuarios y objetivos en relación al producto:*  

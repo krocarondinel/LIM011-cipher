@@ -123,6 +123,17 @@ textarea{
     text-align: center;
     font-family: Arial;
 }
+#completeAllFields{
+    position: absolute;
+    color: red;
+    background: yellow;
+    padding: 2px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial;
+    top: 509px;
+    left: 542px;
+}
 input{
     margin-left: 90px;
 }
@@ -161,14 +172,15 @@ body{
 
 #logOutButton{
     position: absolute;
-    top: 15px;
-    left: 1140px;
+    top: 17px;
+    left: 1150px;
     font-size: 20px;
+    font-style: italic;
     color: white;
-    border: 2px solid #0A3554;
-    background: #0B7C95;
-    border-radius: 8px;
-    padding: 3px;
+    border: none;
+    background: none;
+    /* border-radius: 8px;
+    padding: 3px; */
     }
 #icono{
     position: absolute;

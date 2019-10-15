@@ -26,9 +26,18 @@
 
    * ### *Primer prototipo*
   ![](imagenesParaReadme/dibujoprototipo.png)
-   * ### *Feedback recibido*
 
+   * ### *Feedback recibido*
+     El feedback lo recibí tanto de mis compañeras del squad como de algunos miembros de mi familia.
+
+     #### *Algunos de los problemas en mi diseño inicial fueron:*
+     - No Sobrecarga de botones entre las las dos cajas donde se colocan los textos.
+     - Redundancia entre "ingresar los datos" e "ingresar el texto aquí".
+     - Inexistencia del cerrar sesión, debido a que es una herramienta de la Intranet de la empresa.
+     
+   
    * ### *Prototipo Final*
+   ![](imagenesParaReadme/prototipoFigma.png)
 
 ## 4. Objetivos de aprendizaje
 
@@ -46,9 +55,9 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### HTML y CSS
 
-- [No] Uso correcto de HTML semántico.
+- [ ] Uso correcto de HTML semántico.
 - [ ] Uso de selectores de CSS.
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
@@ -58,17 +67,17 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### Javascript
 
-- [ ] Manipulación de strings.
-- [ ] Uso de condicionales (if-else | switch).
+- [x] Manipulación de strings.
+- [x] Uso de condicionales (if-else | switch)
 - [ ] Uso de bucles (for | do-while).    
 - [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [x] Declaración correcta de variables (const & let).
 
 ### Testing
-- [ ] Testeo de tus funciones.
+- [x] Testeo de tus funciones.
 
 ### Git y GitHub
-- [ ] Comandos de git (add | commit | pull | status | push).
+- [x] Comandos de git (add | commit | pull | status | push).
 - [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo

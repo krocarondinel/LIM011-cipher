@@ -25,7 +25,7 @@
     Esta herramienta es parte de la Intranet de la empresa, lo cual asegura que solo personal autorizado tendrá acceso a esta. Los usuarios colocan el texto que desean encriptar o desencriptar, el número de desplazamientos y ellos reciben la *"traducción"* del texto, el cual solo podrá ser entendible para ellos. Y así, se conseguirá un nivel más de seguridad de esta información.
 
    * ### *Primer prototipo*
-  ![](imagenesParaReadme/prototipo.png)
+  ![](imagenesParaReadme/dibujoprototipo.png)
    * ### *Feedback recibido*
 
    * ### *Prototipo Final*

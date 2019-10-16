@@ -34,6 +34,7 @@
      - No Sobrecarga de botones entre las las dos cajas donde se colocan los textos.
      - Redundancia entre "ingresar los datos" e "ingresar el texto aquí".
      - Inexistencia del cerrar sesión, debido a que es una herramienta de la Intranet de la empresa.
+  
      
    
    * ### *Prototipo Final*

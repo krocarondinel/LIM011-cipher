@@ -20,6 +20,6 @@ module.exports = {
     'react'
   ],
   rules: {
-    "semi":["error", "always"]
+    "semi":["error", "always"],
   }
 }
